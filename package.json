@@ -1,0 +1,26 @@
+{
+  "name": "jarvis-bulma",
+  "version": "0.1.0",
+  "description": "Jarvis Niu's modified version of Bulma",
+  "main": "css/bulma.min.css",
+  "keywords": [
+    "bulma",
+    "css"
+  ],
+  "author": "Jarvis Niu",
+  "license": "MIT",
+  "scripts": {
+    "build": "sass src/bulma.sass css/bulma.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarvisniu/jarvis-bulma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jarvisniu/jarvis-bulma/issues"
+  },
+  "homepage": "https://github.com/jarvisniu/jarvis-bulma#readme",
+  "devDependencies": {
+    "sass": "^1.32.0"
+  }
+}
