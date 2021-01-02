@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Columns - jarvis-bulma docs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize" />
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script> -->
+    <link rel="stylesheet" href="../../css/bulma.css" />
+    <link rel="stylesheet" href="../index.css" />
+  </head>
+  <body>
+    <div class="page-container">
+      <aside class="menu">
+        <a href="../index.html"><h1>jarvis-bulma docs</h1></a>
+        <p class="menu-label">Elements</p>
+        <ul class="menu-list">
+          <li><a href="../elements/block.html">Block</a></li>
+          <li><a href="../elements/box.html">Box</a></li>
+          <li><a href="../elements/button.html">Button</a></li>
+          <li><a href="../elements/content.html">Content</a></li>
+          <li><a href="../elements/delete.html">Delete</a></li>
+          <li><a href="../elements/icon.html">Icon</a></li>
+          <li><a href="../elements/image.html">Image</a></li>
+          <li><a href="../elements/notification.html">Notification</a></li>
+          <li><a href="../elements/progress-bars.html">Progress bars</a></li>
+          <li><a href="../elements/table.html">Table</a></li>
+          <li><a href="../elements/tag.html">Tag</a></li>
+          <li><a href="../elements/title.html">Title</a></li>
+        </ul>
+        <p class="menu-label">Form</p>
+        <ul class="menu-list">
+          <li><a href="../form/general.html">General</a></li>
+          <li><a href="../form/input.html">Input</a></li>
+          <li><a href="../form/textarea.html">Textarea</a></li>
+          <li><a href="../form/select.html">Select</a></li>
+          <li><a href="../form/checkbox.html">Checkbox</a></li>
+          <li><a href="../form/radio.html">Radio</a></li>
+          <li><a href="../form/file.html">File</a></li>
+        </ul>
+        <p class="menu-label">Layout</p>
+        <ul class="menu-list">
+          <li><a href="../layout/container.html">Container</a></li>
+          <li><a href="../layout/columns.html">Columns</a></li>
+          <li><a href="../layout/level.html">Level</a></li>
+          <li><a href="../layout/media-object.html">Media Object</a></li>
+          <li><a href="../layout/hero.html">Hero</a></li>
+          <li><a href="../layout/section.html">Section</a></li>
+          <li><a href="../layout/footer.html">Footer</a></li>
+          <li><a href="../layout/tiles.html">Tiles</a></li>
+        </ul>
+        <p class="menu-label">Components</p>
+        <ul class="menu-list">
+          <li><a href="../components/breadcrumb.html">Breadcrumb</a></li>
+          <li><a href="../components/card.html">Card</a></li>
+          <li><a href="../components/dropdown.html">Dropdown</a></li>
+          <li><a href="../components/menu.html">Menu</a></li>
+          <li><a href="../components/message.html">Message</a></li>
+          <li><a href="../components/modal.html">Modal</a></li>
+          <li><a href="../components/navbar.html">Navbar</a></li>
+          <li><a href="../components/pagination.html">Pagination</a></li>
+          <li><a href="../components/panel.html">Panel</a></li>
+          <li><a href="../components/tabs.html">Tabs</a></li>
+        </ul>
+      </aside>
+      <main class="jarvis-bulma">
+        <h1>Columns</h1>
+        <!-- Main -->
+        <section>
+          <div class="section-title">Basics</div>
+          <div class="section-content">
+            <div class="columns">
+              <div class="column">
+                <p class="bd-notification is-primary">First column</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">Second column</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">Third column</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">Fourth column</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">Sizes</div>
+          <h2>is-full, is-half, is-two-thirds, is-three-quarters, is-four-fifths</h2>
+          <div class="section-content">
+            <div class="columns">
+              <div class="column is-full">
+                <p class="bd-notification is-primary">
+                  <code class="html">is-full</code>
+                </p>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column is-three-quarters">
+                <p class="bd-notification is-primary">
+                  <code class="html">is-three-quarters</code>
+                </p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-fojeisj">Auto</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-wajofij">Auto</p>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column is-two-thirds">
+                <p class="bd-notification is-primary">
+                  <code class="html">is-two-thirds</code>
+                </p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-fojeisj">Auto</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-wajofij">Auto</p>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column is-half">
+                <p class="bd-notification is-primary">
+                  <code class="html">is-half</code>
+                </p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-fojeisj">Auto</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-wajofij">Auto</p>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column is-one-quarter">
+                <p class="bd-notification is-primary">
+                  <code class="html">is-one-quarter</code>
+                </p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-fojeisj">Auto</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-wajofij">Auto</p>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column is-one-fifth">
+                <p class="bd-notification is-primary">
+                  <code class="html">is-one-fifth</code>
+                </p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-fojeisj">Auto</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-wajofij">Auto</p>
+              </div>
+            </div>
+          </div>
+          <h2>12 columns system(is-1, is-2 ... is-12)</h2>
+          <div class="section-content">
+            <div class="columns">
+              <div class="column is-2">
+                <p class="bd-notification is-primary"><code>is-2</code></p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-fojeisj has-text-centered">1</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-wajofij has-text-centered">1</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-fojeisj has-text-centered">1</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-wajofij has-text-centered">1</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-fojeisj has-text-centered">1</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-wajofij has-text-centered">1</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-fojeisj has-text-centered">1</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-wajofij has-text-centered">1</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-fojeisj has-text-centered">1</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-wajofij has-text-centered">1</p>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column is-6">
+                <p class="bd-notification is-primary"><code>is-6</code></p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-fojeisj has-text-centered">1</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-wajofij has-text-centered">1</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-fojeisj has-text-centered">1</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-wajofij has-text-centered">1</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-fojeisj has-text-centered">1</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-wajofij has-text-centered">1</p>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column is-12">
+                <p class="bd-notification is-primary"><code>is-12</code></p>
+              </div>
+            </div>
+          </div>
+          <h2>Offset(.is-offset-x)</h2>
+          <div class="section-content">
+            <div class="columns is-mobile">
+              <div class="column is-half is-offset-one-quarter">
+                <p class="bd-notification is-primary">
+                  <code class="html">is-half</code><br />
+                  <code class="html">is-offset-one-quarter</code>
+                </p>
+              </div>
+            </div>
+            <div class="columns is-mobile">
+              <div class="column is-three-fifths is-offset-one-fifth">
+                <p class="bd-notification is-primary">
+                  <code class="html">is-three-fifths</code><br />
+                  <code class="html">is-offset-one-fifth</code>
+                </p>
+              </div>
+            </div>
+            <div class="columns is-mobile">
+              <div class="column is-4 is-offset-8">
+                <p class="bd-notification is-primary">
+                  <code class="html">is-4</code><br />
+                  <code class="html">is-offset-8</code>
+                </p>
+              </div>
+            </div>
+            <div class="columns is-mobile">
+              <div class="column is-11 is-offset-1">
+                <p class="bd-notification is-primary">
+                  <code class="html">is-11</code><br />
+                  <code class="html">is-offset-1</code>
+                </p>
+              </div>
+            </div>
+          </div>
+          <h2>Narrow column</h2>
+          <div class="section-content">
+            <div class="columns">
+              <div class="column is-narrow">
+                <div class="box" style="width: 200px">
+                  <p class="title is-5">Narrow column</p>
+                  <p class="subtitle">This column is only 200px wide.</p>
+                </div>
+              </div>
+              <div class="column">
+                <div class="box">
+                  <p class="title is-5">Flexible column</p>
+                  <p class="subtitle">This column will take up the remaining space available.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">Responsiveness</div>
+          <h2>Mobile columns</h2>
+          <div class="section-content">
+            <div class="columns is-mobile">
+              <div class="column">
+                <p class="bd-notification is-primary">1</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">2</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">3</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">4</p>
+              </div>
+            </div>
+          </div>
+          <h2>Desktop columns</h2>
+          <div class="section-content">
+            <div class="columns is-desktop">
+              <div class="column">
+                <p class="bd-notification is-primary">1</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">2</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">3</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">4</p>
+              </div>
+            </div>
+          </div>
+          <h2>Different column sizes per breakpoint</h2>
+          <div class="section-content">
+            <div class="columns is-mobile">
+              <div
+                class="column is-three-quarters-mobile is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd"
+              >
+                <p class="bd-notification is-primary">
+                  <code>is-three-quarters-mobile</code><br />
+                  <code>is-two-thirds-tablet</code><br />
+                  <code>is-half-desktop</code><br />
+                  <code>is-one-third-widescreen</code><br />
+                  <code>is-one-quarter-fullhd</code><br />
+                </p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">2</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">3</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">4</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">5</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">Nesting</div>
+          <div class="section-content">
+            <div class="columns">
+              <div class="column">
+                <p class="bd-notification is-info">First column</p>
+                <div class="columns is-mobile">
+                  <div class="column">
+                    <p class="bd-notification is-info">First nested column</p>
+                  </div>
+                  <div class="column">
+                    <p class="bd-notification is-info">Second nested column</p>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-danger">Second column</p>
+                <div class="columns is-mobile">
+                  <div class="column is-half">
+                    <p class="bd-notification is-danger">50%</p>
+                  </div>
+                  <div class="column">
+                    <p class="bd-notification is-danger">Auto</p>
+                  </div>
+                  <div class="column">
+                    <p class="bd-notification is-danger">Auto</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">Gap</div>
+          <h2>Default gap</h2>
+          <div class="section-content">
+            <div class="columns">
+              <div class="column">
+                <p class="bd-notification is-primary">Default gap</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">Default gap</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">Default gap</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">Default gap</p>
+              </div>
+            </div>
+          </div>
+          <h2>Gapless (is-gapless)</h2>
+          <div class="section-content">
+            <div class="columns is-gapless">
+              <div class="column">
+                <p class="bd-notification is-primary">First column</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">Second column</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">Third column</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">Fourth column</p>
+              </div>
+            </div>
+          </div>
+          <h2>Variable gap [Experimental]</h2>
+          <div class="section-content">
+            <div class="columns is-variable is-8Z">
+              <div class="column is-4">
+                <div class="bd-notification is-primary has-text-centered">Three columns</div>
+              </div>
+              <div class="column is-4">
+                <div class="bd-notification is-primary has-text-centered">Three columns</div>
+              </div>
+              <div class="column is-4">
+                <div class="bd-notification is-primary has-text-centered">Three columns</div>
+              </div>
+            </div>
+          </div>
+          <h2>Breakpoint based column gaps</h2>
+          <div class="section-content">
+            <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
+              <div class="column">
+                <p class="bd-notification is-primary">Column</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">Column</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">Column</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">Column</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">Column</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">Column</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">Column options</div>
+          <h2>Vertical alignment</h2>
+          <div class="section-content">
+            <div class="columns is-vcentered">
+              <div class="column is-8">
+                <p class="bd-notification is-primary">First column</p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">
+                  Second column with more content. This is so you can see the vertical alignment.
+                </p>
+              </div>
+            </div>
+          </div>
+          <h2>Multiline (is-multiline)</h2>
+          <div class="section-content">
+            <div class="columns is-multiline is-mobile">
+              <div class="column is-one-quarter">
+                <p class="bd-notification is-primary"><code>is-one-quarter</code></p>
+              </div>
+              <div class="column is-one-quarter">
+                <p class="bd-notification is-primary"><code>is-one-quarter</code></p>
+              </div>
+              <div class="column is-one-quarter">
+                <p class="bd-notification is-primary"><code>is-one-quarter</code></p>
+              </div>
+              <div class="column is-one-quarter">
+                <p class="bd-notification is-primary"><code>is-one-quarter</code></p>
+              </div>
+              <div class="column is-half">
+                <p class="bd-notification is-primary"><code>is-half</code></p>
+              </div>
+              <div class="column is-one-quarter">
+                <p class="bd-notification is-primary"><code>is-one-quarter</code></p>
+              </div>
+              <div class="column is-one-quarter">
+                <p class="bd-notification is-primary"><code>is-one-quarter</code></p>
+              </div>
+              <div class="column is-one-quarter">
+                <p class="bd-notification is-primary"><code>is-one-quarter</code></p>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-primary">Auto</p>
+              </div>
+            </div>
+          </div>
+          <h2>Centering columns</h2>
+          <div class="section-content">
+            <div class="columns is-mobile is-centered">
+              <div class="column is-half">
+                <p class="bd-notification is-primary"><code class="html">is-half</code><br /></p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

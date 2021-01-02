@@ -2,10 +2,12 @@
 
 Jarvis Niu's modified version of [Bulma](https://bulma.io/)
 
-## Changes
+## Differences
 
-Changes to the original bulma:
--
+Differences to the original bulma:
+
+- Not intrusive! Remove the `generic.sass` to keep your style unchanged.
+- Styled `checkbox` and `radio`.
 
 ## Licence
 

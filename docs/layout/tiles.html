@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiles - jarvis-bulma docs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize" />
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script> -->
+    <link rel="stylesheet" href="../../css/bulma.css" />
+    <link rel="stylesheet" href="../index.css" />
+  </head>
+  <body>
+    <div class="page-container">
+      <aside class="menu">
+        <a href="../index.html"><h1>jarvis-bulma docs</h1></a>
+        <p class="menu-label">Elements</p>
+        <ul class="menu-list">
+          <li><a href="../elements/block.html">Block</a></li>
+          <li><a href="../elements/box.html">Box</a></li>
+          <li><a href="../elements/button.html">Button</a></li>
+          <li><a href="../elements/content.html">Content</a></li>
+          <li><a href="../elements/delete.html">Delete</a></li>
+          <li><a href="../elements/icon.html">Icon</a></li>
+          <li><a href="../elements/image.html">Image</a></li>
+          <li><a href="../elements/notification.html">Notification</a></li>
+          <li><a href="../elements/progress-bars.html">Progress bars</a></li>
+          <li><a href="../elements/table.html">Table</a></li>
+          <li><a href="../elements/tag.html">Tag</a></li>
+          <li><a href="../elements/title.html">Title</a></li>
+        </ul>
+        <p class="menu-label">Form</p>
+        <ul class="menu-list">
+          <li><a href="../form/general.html">General</a></li>
+          <li><a href="../form/input.html">Input</a></li>
+          <li><a href="../form/textarea.html">Textarea</a></li>
+          <li><a href="../form/select.html">Select</a></li>
+          <li><a href="../form/checkbox.html">Checkbox</a></li>
+          <li><a href="../form/radio.html">Radio</a></li>
+          <li><a href="../form/file.html">File</a></li>
+        </ul>
+        <p class="menu-label">Layout</p>
+        <ul class="menu-list">
+          <li><a href="../layout/container.html">Container</a></li>
+          <li><a href="../layout/columns.html">Columns</a></li>
+          <li><a href="../layout/level.html">Level</a></li>
+          <li><a href="../layout/media-object.html">Media Object</a></li>
+          <li><a href="../layout/hero.html">Hero</a></li>
+          <li><a href="../layout/section.html">Section</a></li>
+          <li><a href="../layout/footer.html">Footer</a></li>
+          <li><a href="../layout/tiles.html">Tiles</a></li>
+        </ul>
+        <p class="menu-label">Components</p>
+        <ul class="menu-list">
+          <li><a href="../components/breadcrumb.html">Breadcrumb</a></li>
+          <li><a href="../components/card.html">Card</a></li>
+          <li><a href="../components/dropdown.html">Dropdown</a></li>
+          <li><a href="../components/menu.html">Menu</a></li>
+          <li><a href="../components/message.html">Message</a></li>
+          <li><a href="../components/modal.html">Modal</a></li>
+          <li><a href="../components/navbar.html">Navbar</a></li>
+          <li><a href="../components/pagination.html">Pagination</a></li>
+          <li><a href="../components/panel.html">Panel</a></li>
+          <li><a href="../components/tabs.html">Tabs</a></li>
+        </ul>
+      </aside>
+      <main class="jarvis-bulma">
+        <h1>Tiles</h1>
+        <!-- Main -->
+        <section>
+          <div class="section-title">Basics</div>
+          <div class="section-content">
+            <div class="tile is-ancestor">
+              <div class="tile is-vertical is-8">
+                <div class="tile">
+                  <div class="tile is-parent is-vertical">
+                    <article class="tile is-child notification is-primary">
+                      <p class="title">Vertical...</p>
+                      <p class="subtitle">Top tile</p>
+                    </article>
+                    <article class="tile is-child notification is-warning">
+                      <p class="title">...tiles</p>
+                      <p class="subtitle">Bottom tile</p>
+                    </article>
+                  </div>
+                  <div class="tile is-parent">
+                    <article class="tile is-child notification is-info">
+                      <p class="title">Middle tile</p>
+                      <p class="subtitle">With an image</p>
+                      <figure class="image is-4by3">
+                        <img src="https://bulma.io/images/placeholders/640x480.png" />
+                      </figure>
+                    </article>
+                  </div>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                        pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                        facilisis.
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child notification is-success">
+                  <div class="content">
+                    <p class="title">Tall tile</p>
+                    <p class="subtitle">With even more content</p>
+                    <div class="content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at
+                        pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+                        Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut
+                        quam.
+                      </p>
+                      <p>
+                        Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis.
+                        Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin
+                        felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit
+                        amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat
+                        tortor.
+                      </p>
+                      <p>
+                        Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus
+                        dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras
+                        ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper
+                        leo.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">3 columns</div>
+          <div class="section-content">
+            <div class="tile is-ancestor">
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">Hello World</p>
+                  <p class="subtitle">What is up?</p>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">Foo</p>
+                  <p class="subtitle">Bar</p>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">Third column</p>
+                  <p class="subtitle">With some content</p>
+                  <div class="content">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque
+                      tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="tile is-ancestor">
+              <div class="tile is-vertical is-8">
+                <div class="tile">
+                  <div class="tile is-parent is-vertical">
+                    <article class="tile is-child box">
+                      <p class="title">Vertical tiles</p>
+                      <p class="subtitle">Top box</p>
+                    </article>
+                    <article class="tile is-child box">
+                      <p class="title">Vertical tiles</p>
+                      <p class="subtitle">Bottom box</p>
+                    </article>
+                  </div>
+                  <div class="tile is-parent">
+                    <article class="tile is-child box">
+                      <p class="title">Middle box</p>
+                      <p class="subtitle">With an image</p>
+                      <figure class="image is-4by3">
+                        <img src="https://bulma.io/images/placeholders/640x480.png" />
+                      </figure>
+                    </article>
+                  </div>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <p class="title">Wide column</p>
+                    <p class="subtitle">Aligned with the right column</p>
+                    <div class="content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                        pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                        facilisis.
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <div class="content">
+                    <p class="title">Tall column</p>
+                    <p class="subtitle">With even more content</p>
+                    <div class="content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at
+                        pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+                        Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut
+                        quam.
+                      </p>
+                      <p>
+                        Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis.
+                        Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin
+                        felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit
+                        amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat
+                        tortor.
+                      </p>
+                      <p>
+                        Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus
+                        dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras
+                        ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper
+                        leo.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="tile is-ancestor">
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">Side column</p>
+                  <p class="subtitle">With some content</p>
+                  <div class="content">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque
+                      tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="tile is-parent is-8">
+                <article class="tile is-child box">
+                  <p class="title">Main column</p>
+                  <p class="subtitle">With some content</p>
+                  <div class="content">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque
+                      tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">4 columns</div>
+          <div class="section-content">
+            <div class="tile is-ancestor">
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">One</p>
+                  <p class="subtitle">Subtitle</p>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">Two</p>
+                  <p class="subtitle">Subtitle</p>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">Three</p>
+                  <p class="subtitle">Subtitle</p>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">Four</p>
+                  <p class="subtitle">Subtitle</p>
+                </article>
+              </div>
+            </div>
+            <div class="tile is-ancestor">
+              <div class="tile is-vertical is-9">
+                <div class="tile">
+                  <div class="tile is-parent">
+                    <article class="tile is-child box">
+                      <p class="title">Five</p>
+                      <p class="subtitle">Subtitle</p>
+                      <div class="content">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar,
+                          at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus
+                          ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis
+                          ut quam.
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="tile is-8 is-vertical">
+                    <div class="tile">
+                      <div class="tile is-parent">
+                        <article class="tile is-child box">
+                          <p class="title">Six</p>
+                          <p class="subtitle">Subtitle</p>
+                        </article>
+                      </div>
+                      <div class="tile is-parent">
+                        <article class="tile is-child box">
+                          <p class="title">Seven</p>
+                          <p class="subtitle">Subtitle</p>
+                        </article>
+                      </div>
+                    </div>
+                    <div class="tile is-parent">
+                      <article class="tile is-child box">
+                        <p class="title">Eight</p>
+                        <p class="subtitle">Subtitle</p>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+                <div class="tile">
+                  <div class="tile is-8 is-parent">
+                    <article class="tile is-child box">
+                      <p class="title">Nine</p>
+                      <p class="subtitle">Subtitle</p>
+                      <div class="content">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                          pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                          facilisis.
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="tile is-parent">
+                    <article class="tile is-child box">
+                      <p class="title">Ten</p>
+                      <p class="subtitle">Subtitle</p>
+                      <div class="content">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                          pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                          facilisis.
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <div class="content">
+                    <p class="title">Eleven</p>
+                    <p class="subtitle">Subtitle</p>
+                    <div class="content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at
+                        pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+                        Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut
+                        quam.
+                      </p>
+                      <p>
+                        Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus
+                        dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras
+                        ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper
+                        leo.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="tile is-ancestor">
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">Twelve</p>
+                  <p class="subtitle">Subtitle</p>
+                  <div class="content">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque
+                      tortor vestibulum ut.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="tile is-parent is-6">
+                <article class="tile is-child box">
+                  <p class="title">Thirteen</p>
+                  <p class="subtitle">Subtitle</p>
+                  <div class="content">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque
+                      tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">Fourteen</p>
+                  <p class="subtitle">Subtitle</p>
+                  <div class="content">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque
+                      tortor vestibulum ut.
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

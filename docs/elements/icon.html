@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Icon - jarvis-bulma docs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.1.19/css/materialdesignicons.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <link rel="stylesheet" href="../../css/bulma.css" />
+    <link rel="stylesheet" href="../index.css" />
+  </head>
+  <body>
+    <div class="page-container">
+      <aside class="menu">
+        <a href="../index.html"><h1>jarvis-bulma docs</h1></a>
+        <p class="menu-label">Elements</p>
+        <ul class="menu-list">
+          <li><a href="../elements/block.html">Block</a></li>
+          <li><a href="../elements/box.html">Box</a></li>
+          <li><a href="../elements/button.html">Button</a></li>
+          <li><a href="../elements/content.html">Content</a></li>
+          <li><a href="../elements/delete.html">Delete</a></li>
+          <li><a href="../elements/icon.html">Icon</a></li>
+          <li><a href="../elements/image.html">Image</a></li>
+          <li><a href="../elements/notification.html">Notification</a></li>
+          <li><a href="../elements/progress-bars.html">Progress bars</a></li>
+          <li><a href="../elements/table.html">Table</a></li>
+          <li><a href="../elements/tag.html">Tag</a></li>
+          <li><a href="../elements/title.html">Title</a></li>
+        </ul>
+        <p class="menu-label">Form</p>
+        <ul class="menu-list">
+          <li><a href="../form/general.html">General</a></li>
+          <li><a href="../form/input.html">Input</a></li>
+          <li><a href="../form/textarea.html">Textarea</a></li>
+          <li><a href="../form/select.html">Select</a></li>
+          <li><a href="../form/checkbox.html">Checkbox</a></li>
+          <li><a href="../form/radio.html">Radio</a></li>
+          <li><a href="../form/file.html">File</a></li>
+        </ul>
+        <p class="menu-label">Layout</p>
+        <ul class="menu-list">
+          <li><a href="../layout/container.html">Container</a></li>
+          <li><a href="../layout/columns.html">Columns</a></li>
+          <li><a href="../layout/level.html">Level</a></li>
+          <li><a href="../layout/media-object.html">Media Object</a></li>
+          <li><a href="../layout/hero.html">Hero</a></li>
+          <li><a href="../layout/section.html">Section</a></li>
+          <li><a href="../layout/footer.html">Footer</a></li>
+          <li><a href="../layout/tiles.html">Tiles</a></li>
+        </ul>
+        <p class="menu-label">Components</p>
+        <ul class="menu-list">
+          <li><a href="../components/breadcrumb.html">Breadcrumb</a></li>
+          <li><a href="../components/card.html">Card</a></li>
+          <li><a href="../components/dropdown.html">Dropdown</a></li>
+          <li><a href="../components/menu.html">Menu</a></li>
+          <li><a href="../components/message.html">Message</a></li>
+          <li><a href="../components/modal.html">Modal</a></li>
+          <li><a href="../components/navbar.html">Navbar</a></li>
+          <li><a href="../components/pagination.html">Pagination</a></li>
+          <li><a href="../components/panel.html">Panel</a></li>
+          <li><a href="../components/tabs.html">Tabs</a></li>
+        </ul>
+      </aside>
+      <main class="jarvis-bulma">
+        <h1>Icon</h1>
+        <div style="font-size: 20px">FIXME: Font Awesome variations / stacked</div>
+        <!-- Main -->
+        <section>
+          <div class="section-title">Basics</div>
+          <div class="section-content">
+            <span class="icon" style="background-color: #ffdd57">
+              <i class="fas fa-home"></i>
+            </span>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">Colors</div>
+          <div class="section-content">
+            <span class="icon has-text-info">
+              <i class="fas fa-info-circle"></i>
+            </span>
+            <span class="icon has-text-success">
+              <i class="fas fa-check-square"></i>
+            </span>
+            <span class="icon has-text-warning">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            <span class="icon has-text-danger">
+              <i class="fas fa-ban"></i>
+            </span>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">Sizes</div>
+          <div class="section-content">
+            <table class="table is-bordered">
+              <thead>
+                <tr>
+                  <th>Container class</th>
+                  <th>Container size</th>
+                  <th>Font Awesome 5 class</th>
+                  <th>Icon size</th>
+                  <th>Result</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <code>icon is-small</code>
+                  </td>
+                  <td>
+                    <code>1rem x 1rem</code>
+                  </td>
+                  <td>
+                    <code>fas</code>
+                  </td>
+                  <td>
+                    <code>1em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-small">
+                      <i class="fas fa-home"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="2">
+                    <code>icon</code>
+                  </td>
+                  <td rowspan="2">
+                    <code>1.5rem x 1.5rem</code>
+                  </td>
+                  <td>
+                    <code>fas</code>
+                  </td>
+                  <td>
+                    <code>1em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon">
+                      <i class="fas fa-home"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>fas fa-lg</code>
+                  </td>
+                  <td>
+                    <code>1.33em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon">
+                      <i class="fas fa-lg fa-home"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="3">
+                    <code>icon is-medium</code>
+                  </td>
+                  <td rowspan="3">
+                    <code>2rem x 2rem</code>
+                  </td>
+                  <td>
+                    <code>fas</code>
+                  </td>
+                  <td>
+                    <code>1em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-medium">
+                      <i class="fas fa-home"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>fas fa-lg</code>
+                  </td>
+                  <td>
+                    <code>1.33em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-medium">
+                      <i class="fas fa-lg fa-home"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>fas fa-2x</code>
+                  </td>
+                  <td>
+                    <code>2em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-medium">
+                      <i class="fas fa-2x fa-home"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="4">
+                    <code>icon is-large</code>
+                  </td>
+                  <td rowspan="4">
+                    <code>3rem x 3rem</code>
+                  </td>
+                  <td>
+                    <code>fas</code>
+                  </td>
+                  <td>
+                    <code>1em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-large">
+                      <i class="fas fa-home"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>fas fa-lg</code>
+                  </td>
+                  <td>
+                    <code>1.33em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-large">
+                      <i class="fas fa-lg fa-home"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>fas fa-2x</code>
+                  </td>
+                  <td>
+                    <code>2em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-large">
+                      <i class="fas fa-2x fa-home"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>fas fa-3x</code>
+                  </td>
+                  <td>
+                    <code>3em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-large">
+                      <i class="fas fa-3x fa-home"></i>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">Font Awesome variations</div>
+          <div class="section-content">
+            <table class="table is-bordered">
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Font Awesome class</th>
+                  <th>Result</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Fixed width</td>
+                  <td>
+                    <code>fas fa-fw</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon">
+                      <i class="fas fa-home fa-fw"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Bordered</td>
+                  <td>
+                    <code>fas fa-border</code>
+                  </td>
+                  <td>
+                    <span class="icon">
+                      <i class="fas fa-home fa-border"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Animated</td>
+                  <td>
+                    <code>fas fa-spinner fa-pulse</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon">
+                      <i class="fas fa-spinner fa-pulse"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Rotated &amp; flipped</td>
+                  <td>
+                    <code>fas fa-shield-alt</code><br />
+                    <code>fas fa-shield-alt</code> <code>data-fa-transform="rotate-90"</code><br />
+                    <code>fas fa-shield-alt</code> <code>data-fa-transform="rotate-180"</code><br />
+                    <code>fas fa-shield-alt</code> <code>data-fa-transform="rotate-270"</code><br />
+                    <code>fas fa-shield-alt</code> <code>data-fa-transform="flip-h"</code><br />
+                    <code>fas fa-shield-alt</code> <code>data-fa-transform="flip-v"</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon">
+                      <i class="fas fa-shield-alt"></i>
+                    </span>
+                    <br />
+                    <span class="icon">
+                      <i class="fas fa-shield-alt" data-fa-transform="rotate-90"></i>
+                    </span>
+                    <br />
+                    <span class="icon">
+                      <i class="fas fa-shield-alt" data-fa-transform="rotate-180"></i>
+                    </span>
+                    <br />
+                    <span class="icon">
+                      <i class="fas fa-shield-alt" data-fa-transform="rotate-270"></i>
+                    </span>
+                    <br />
+                    <span class="icon">
+                      <i class="fas fa-shield-alt" data-fa-transform="flip-h"></i>
+                    </span>
+                    <br />
+                    <span class="icon">
+                      <i class="fas fa-shield-alt" data-fa-transform="flip-v"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="2">Stacked</td>
+                  <td>
+                    <figure class="highlight">
+                      <pre><code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-medium"</span><span class="nt">&gt;</span>
+              <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa-stack"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fas fa-circle fa-stack-2x"</span><span class="nt">&gt;&lt;/i&gt;</span>
+                <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fas fa-flag fa-stack-1x fa-inverse"</span><span class="nt">&gt;&lt;/i&gt;</span>
+              <span class="nt">&lt;/span&gt;</span>
+            <span class="nt">&lt;/span&gt;</span></code></pre>
+                      <button class="button is-small bd-copy">Copy</button>
+                    </figure>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-medium">
+                      <span class="fa-stack">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fas fa-flag fa-stack-1x fa-inverse"></i>
+                      </span>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <figure class="highlight">
+                      <pre><code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-large"</span><span class="nt">&gt;</span>
+              <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa-stack fa-lg"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fas fa-camera fa-stack-1x"</span><span class="nt">&gt;&lt;/i&gt;</span>
+                <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fas fa-ban fa-stack-2x has-text-danger"</span><span class="nt">&gt;&lt;/i&gt;</span>
+              <span class="nt">&lt;/span&gt;</span>
+            <span class="nt">&lt;/span&gt;</span></code></pre>
+                      <button class="button is-small bd-copy">Copy</button>
+                    </figure>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-large">
+                      <span class="fa-stack fa-lg">
+                        <i class="fas fa-camera fa-stack-1x"></i>
+                        <i class="fas fa-ban fa-stack-2x has-text-danger"></i>
+                      </span>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">Material Design Icons</div>
+          <div class="section-content">
+            <table class="table is-bordered">
+              <thead>
+                <tr>
+                  <th>Container class</th>
+                  <th>Container size</th>
+                  <th>MDI class</th>
+                  <th>Icon size</th>
+                  <th>Result</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <code>icon is-small</code>
+                  </td>
+                  <td>
+                    <code>1rem x 1rem</code>
+                  </td>
+                  <td>
+                    <code>mdi</code>
+                  </td>
+                  <td>
+                    <code>1em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-small">
+                      <i class="mdi mdi-bell"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="2">
+                    <code>icon</code>
+                  </td>
+                  <td rowspan="2">
+                    <code>1.5rem x 1.5rem</code>
+                  </td>
+                  <td>
+                    <code>mdi mdi-18px</code>
+                  </td>
+                  <td>
+                    <code>18px</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon">
+                      <i class="mdi mdi-18px mdi-bell"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>mdi mdi-24px</code>
+                  </td>
+                  <td>
+                    <code>24px</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon">
+                      <i class="mdi mdi-24px mdi-bell"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="4">
+                    <code>icon is-medium</code>
+                  </td>
+                  <td rowspan="4">
+                    <code>2rem x 2rem</code>
+                  </td>
+                  <td>
+                    <code>mdi</code>
+                  </td>
+                  <td>
+                    <code>1em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-medium">
+                      <i class="mdi mdi-bell"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>mdi mdi-18px</code>
+                  </td>
+                  <td>
+                    <code>18px</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-medium">
+                      <i class="mdi mdi-18px mdi-bell"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>mdi mdi-24px</code>
+                  </td>
+                  <td>
+                    <code>24px</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-medium">
+                      <i class="mdi mdi-24px mdi-bell"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>mdi mdi-36px</code>
+                  </td>
+                  <td>
+                    <code>36px</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-medium">
+                      <i class="mdi mdi-36px mdi-bell"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="5">
+                    <code>icon is-large</code>
+                  </td>
+                  <td rowspan="5">
+                    <code>3rem x 3rem</code>
+                  </td>
+                  <td>
+                    <code>mdi</code>
+                  </td>
+                  <td>
+                    <code>1em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-large">
+                      <i class="mdi mdi-bell"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>mdi mdi-18px</code>
+                  </td>
+                  <td>
+                    <code>18px</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-large">
+                      <i class="mdi mdi-18px mdi-bell"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>mdi mdi-24px</code>
+                  </td>
+                  <td>
+                    <code>24px</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-large">
+                      <i class="mdi mdi-24px mdi-bell"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>mdi mdi-36px</code>
+                  </td>
+                  <td>
+                    <code>36px</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-large">
+                      <i class="mdi mdi-36px mdi-bell"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>mdi mdi-48px</code>
+                  </td>
+                  <td>
+                    <code>48px</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-large">
+                      <i class="mdi mdi-48px mdi-bell"></i>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">Ionicons</div>
+          <div class="section-content">
+            <table class="table is-bordered">
+              <thead>
+                <tr>
+                  <th>Container class</th>
+                  <th>Container size</th>
+                  <th>Ionicon class</th>
+                  <th>Icon size</th>
+                  <th>Result</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <code>icon is-small</code>
+                  </td>
+                  <td>
+                    <code>1rem x 1rem</code>
+                  </td>
+                  <td>
+                    <code>ion-ionic</code>
+                  </td>
+                  <td>
+                    <code>1em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-small">
+                      <span class="ion-ionic"></span>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>icon</code>
+                  </td>
+                  <td>
+                    <code>1.5rem x 1.5rem</code>
+                  </td>
+                  <td>
+                    <code>ion-ionic</code>
+                  </td>
+                  <td>
+                    <code>1em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon">
+                      <span class="ion-ionic"></span>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>icon is-medium</code>
+                  </td>
+                  <td>
+                    <code>2rem x 2rem</code>
+                  </td>
+                  <td>
+                    <code>ion-ionic</code>
+                  </td>
+                  <td>
+                    <code>1em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-medium">
+                      <span class="ion-ionic"></span>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>icon is-large</code>
+                  </td>
+                  <td>
+                    <code>3rem x 3rem</code>
+                  </td>
+                  <td>
+                    <code>ion-ionic</code>
+                  </td>
+                  <td>
+                    <code>1em</code>
+                  </td>
+                  <td class="bd-icon-size">
+                    <span class="icon is-large">
+                      <span class="ion-ionic"></span>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

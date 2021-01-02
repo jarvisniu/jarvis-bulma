@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File - jarvis-bulma docs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize" />
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <link rel="stylesheet" href="../../css/bulma.css" />
+    <link rel="stylesheet" href="../index.css" />
+  </head>
+  <body>
+    <div class="page-container">
+      <aside class="menu">
+        <a href="../index.html"><h1>jarvis-bulma docs</h1></a>
+        <p class="menu-label">Elements</p>
+        <ul class="menu-list">
+          <li><a href="../elements/block.html">Block</a></li>
+          <li><a href="../elements/box.html">Box</a></li>
+          <li><a href="../elements/button.html">Button</a></li>
+          <li><a href="../elements/content.html">Content</a></li>
+          <li><a href="../elements/delete.html">Delete</a></li>
+          <li><a href="../elements/icon.html">Icon</a></li>
+          <li><a href="../elements/image.html">Image</a></li>
+          <li><a href="../elements/notification.html">Notification</a></li>
+          <li><a href="../elements/progress-bars.html">Progress bars</a></li>
+          <li><a href="../elements/table.html">Table</a></li>
+          <li><a href="../elements/tag.html">Tag</a></li>
+          <li><a href="../elements/title.html">Title</a></li>
+        </ul>
+        <p class="menu-label">Form</p>
+        <ul class="menu-list">
+          <li><a href="../form/general.html">General</a></li>
+          <li><a href="../form/input.html">Input</a></li>
+          <li><a href="../form/textarea.html">Textarea</a></li>
+          <li><a href="../form/select.html">Select</a></li>
+          <li><a href="../form/checkbox.html">Checkbox</a></li>
+          <li><a href="../form/radio.html">Radio</a></li>
+          <li><a href="../form/file.html">File</a></li>
+        </ul>
+        <p class="menu-label">Layout</p>
+        <ul class="menu-list">
+          <li><a href="../layout/container.html">Container</a></li>
+          <li><a href="../layout/columns.html">Columns</a></li>
+          <li><a href="../layout/level.html">Level</a></li>
+          <li><a href="../layout/media-object.html">Media Object</a></li>
+          <li><a href="../layout/hero.html">Hero</a></li>
+          <li><a href="../layout/section.html">Section</a></li>
+          <li><a href="../layout/footer.html">Footer</a></li>
+          <li><a href="../layout/tiles.html">Tiles</a></li>
+        </ul>
+        <p class="menu-label">Components</p>
+        <ul class="menu-list">
+          <li><a href="../components/breadcrumb.html">Breadcrumb</a></li>
+          <li><a href="../components/card.html">Card</a></li>
+          <li><a href="../components/dropdown.html">Dropdown</a></li>
+          <li><a href="../components/menu.html">Menu</a></li>
+          <li><a href="../components/message.html">Message</a></li>
+          <li><a href="../components/modal.html">Modal</a></li>
+          <li><a href="../components/navbar.html">Navbar</a></li>
+          <li><a href="../components/pagination.html">Pagination</a></li>
+          <li><a href="../components/panel.html">Panel</a></li>
+          <li><a href="../components/tabs.html">Tabs</a></li>
+        </ul>
+      </aside>
+      <main class="jarvis-bulma">
+        <h1>File</h1>
+        <!-- Main -->
+        <section>
+          <div class="section-title">Basics</div>
+          <div class="section-content is-half">
+            <div class="file">
+              <label class="file-label">
+                <input class="file-input" type="file" name="resume" />
+                <span class="file-cta">
+                  <span class="file-icon">
+                    <i class="fas fa-upload"></i>
+                  </span>
+                  <span class="file-label"> Choose a file… </span>
+                </span>
+              </label>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">Show filename</div>
+          <h2>Basic (has-name)</h2>
+          <div class="section-content is-half">
+            <div class="file has-name">
+              <label class="file-label">
+                <input class="file-input" type="file" name="resume" />
+                <span class="file-cta">
+                  <span class="file-icon">
+                    <i class="fas fa-upload"></i>
+                  </span>
+                  <span class="file-label"> Choose a file… </span>
+                </span>
+                <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+              </label>
+            </div>
+          </div>
+          <h2>Right side (is-right)</h2>
+          <div class="section-content is-half">
+            <div class="file has-name is-right">
+              <label class="file-label">
+                <input class="file-input" type="file" name="resume" />
+                <span class="file-cta">
+                  <span class="file-icon">
+                    <i class="fas fa-upload"></i>
+                  </span>
+                  <span class="file-label"> Choose a file… </span>
+                </span>
+                <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+              </label>
+            </div>
+          </div>
+          <h2>Fill the remaining space (is-fullwidth)</h2>
+          <div class="section-content is-half">
+            <div class="file has-name is-fullwidth">
+              <label class="file-label">
+                <input class="file-input" type="file" name="resume" />
+                <span class="file-cta">
+                  <span class="file-icon">
+                    <i class="fas fa-upload"></i>
+                  </span>
+                  <span class="file-label"> Choose a file… </span>
+                </span>
+                <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+              </label>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">Boxed block style</div>
+          <h2>Basic</h2>
+          <div class="section-content is-half">
+            <div class="file is-boxed">
+              <label class="file-label">
+                <input class="file-input" type="file" name="resume" />
+                <span class="file-cta">
+                  <span class="file-icon">
+                    <i class="fas fa-upload"></i>
+                  </span>
+                  <span class="file-label"> Choose a file… </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <h2>Show filename</h2>
+          <div class="section-content is-half">
+            <div class="file has-name is-boxed">
+              <label class="file-label">
+                <input class="file-input" type="file" name="resume" />
+                <span class="file-cta">
+                  <span class="file-icon">
+                    <i class="fas fa-upload"></i>
+                  </span>
+                  <span class="file-label"> Choose a file… </span>
+                </span>
+                <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+              </label>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">Colors</div>
+          <div class="section-content is-half">
+            <div class="field">
+              <div class="file is-primary">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Primary file… </span>
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="file is-info has-name">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Info file… </span>
+                  </span>
+                  <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="file is-warning is-boxed">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-cloud-upload-alt"></i>
+                    </span>
+                    <span class="file-label"> Warning file… </span>
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="file is-danger has-name is-boxed">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-cloud-upload-alt"></i>
+                    </span>
+                    <span class="file-label"> Danger file… </span>
+                  </span>
+                  <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">Sizes</div>
+          <h2>Basic</h2>
+          <div class="section-content is-half">
+            <div class="field">
+              <div class="file is-small">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Small file… </span>
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="file">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Normal file… </span>
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="file is-medium">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Medium file… </span>
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="file is-large">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Large file… </span>
+                  </span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <h2>has-name</h2>
+          <div class="section-content is-half">
+            <div class="field">
+              <div class="file is-small has-name">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Small file… </span>
+                  </span>
+                  <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="file has-name">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Normal file… </span>
+                  </span>
+                  <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="file is-medium has-name">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Medium file… </span>
+                  </span>
+                  <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="file is-large has-name">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Large file… </span>
+                  </span>
+                  <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <h2>is-boxed</h2>
+          <div class="section-content is-half">
+            <div class="field">
+              <div class="file is-small is-boxed">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Small file… </span>
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="file is-boxed">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Normal file… </span>
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="file is-medium is-boxed">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Medium file… </span>
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="file is-large is-boxed">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Large file… </span>
+                  </span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <h2>is-boxed has-name</h2>
+          <div class="section-content is-half">
+            <div class="field">
+              <div class="file is-small is-boxed has-name">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Small file… </span>
+                  </span>
+                  <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="file is-boxed has-name">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Normal file… </span>
+                  </span>
+                  <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="file is-medium is-boxed has-name">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Medium file… </span>
+                  </span>
+                  <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="file is-large is-boxed has-name">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Large file… </span>
+                  </span>
+                  <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">Alignment</div>
+          <h2>is-centered</h2>
+          <div class="section-content is-half">
+            <div class="field">
+              <div class="file is-centered is-boxed is-success has-name">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Centered file… </span>
+                  </span>
+                  <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <h2>is-right</h2>
+          <div class="section-content is-half">
+            <div class="field">
+              <div class="file is-right is-info">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label"> Right file… </span>
+                  </span>
+                  <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">JavaScript</div>
+          <div class="section-content is-half">
+            <div id="file-js-example" class="file has-name">
+              <label class="file-label">
+                <input class="file-input" type="file" name="resume" />
+                <span class="file-cta">
+                  <span class="file-icon">
+                    <i class="fas fa-upload"></i>
+                  </span>
+                  <span class="file-label"> Choose a file… </span>
+                </span>
+                <span class="file-name"> No file uploaded </span>
+              </label>
+            </div>
+
+            <script>
+              const fileInput = document.querySelector('#file-js-example input[type=file]')
+              fileInput.onchange = () => {
+                if (fileInput.files.length > 0) {
+                  const fileName = document.querySelector('#file-js-example .file-name')
+                  fileName.textContent = fileInput.files[0].name
+                }
+              }
+            </script>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
