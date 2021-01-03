@@ -1,8 +1,8 @@
 {
   "name": "jarvis-bulma",
-  "version": "0.0.0",
+  "version": "0.1.0-wip",
   "description": "Jarvis Niu's modified version of Bulma",
-  "main": "css/bulma.min.css",
+  "main": "css/bulma.css",
   "keywords": [
     "bulma",
     "css"
@@ -11,9 +11,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "http-server -c-1",
-    "build-css": "sass src/bulma.sass css/bulma.css",
-    "build-min": "cleancss -o css/bulma.min.css css/bulma.css",
-    "build": "rm -rf css && npm run build-css && npm run build-min"
+    "build": "rm -rf css && sass --no-source-map src/bulma.sass css/bulma.css",
+    "build-with-source-maps": "rm -rf css && sass src/bulma.sass css/bulma.css"
   },
   "repository": {
     "type": "git",
@@ -24,12 +23,11 @@
   },
   "homepage": "https://github.com/jarvisniu/jarvis-bulma#readme",
   "devDependencies": {
-    "clean-css-cli": "^4.3.0",
     "sass": "^1.32.0"
   },
   "files": [
     "css/**/*",
-    "docs/**/*",
-    "src/**/*"
+    "src/**/*",
+    "docs/**/*"
   ]
 }
