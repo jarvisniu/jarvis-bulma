@@ -85,6 +85,9 @@ main.jarvis-bulma .section-content.is-primary {
 }
 
 /* bd */
+a {
+  cursor: pointer;
+}
 svg {
   max-height: 100%;
   max-width: 100%

@@ -1,17 +1,17 @@
-$tabs-border-bottom-color: $border !default
+$tabs-border-bottom-color: #f0f0f0 !default // Bulma: $border
 $tabs-border-bottom-style: solid !default
-$tabs-border-bottom-width: 1px !default
+$tabs-border-bottom-width: 2px !default
 $tabs-link-color: $text !default
-$tabs-link-hover-border-bottom-color: $text-strong !default
+$tabs-link-hover-border-bottom-color: #d6d6d6 !default // Bulma: $text-strong
 $tabs-link-hover-color: $text-strong !default
 $tabs-link-active-border-bottom-color: $blue !default
 $tabs-link-active-color: $blue !default
 $tabs-link-padding: 0.5em 1em !default
 
+$tabs-boxed-link-border-color: $border !default
 $tabs-boxed-link-radius: $radius !default
 $tabs-boxed-link-hover-background-color: $background !default
 $tabs-boxed-link-hover-border-bottom-color: $border !default
-
 $tabs-boxed-link-active-background-color: $scheme-main !default
 $tabs-boxed-link-active-border-color: $border !default
 $tabs-boxed-link-active-border-bottom-color: transparent !default
@@ -90,8 +90,13 @@ $tabs-toggle-link-active-color: $blue-invert !default
       justify-content: flex-end
   // Styles
   &.is-boxed
+    ul
+      border-bottom-width: 1px
+      border-color: $tabs-boxed-link-border-color
     a
       border: 1px solid transparent
+      border-bottom-width: 1px
+      margin-bottom: -1px
       +ltr
         border-radius: $tabs-boxed-link-radius $tabs-boxed-link-radius 0 0
       +rtl

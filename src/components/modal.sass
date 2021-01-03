@@ -82,7 +82,7 @@ $modal-breakpoint: $tablet !default
   background-color: $modal-card-head-background-color
   display: flex
   flex-shrink: 0
-  justify-content: flex-start
+  justify-content: center // Bulma: flex-start
   padding: $modal-card-head-padding
   position: relative
 
@@ -104,7 +104,7 @@ $modal-breakpoint: $tablet !default
   border-top: $modal-card-foot-border-top
   .button
     &:not(:last-child)
-      +ltr-property("margin", 0.5em)
+      +ltr-property("margin", 1em) // Bulma: 0.5em
 
 .modal-card-body
   +overflow-touch
