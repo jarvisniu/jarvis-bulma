@@ -37,9 +37,7 @@
     left: calc(50% - 8px)
     position: absolute
     transform-origin: center
-    transition-duration: $speed
-    transition-property: background-color, opacity, transform
-    transition-timing-function: $easing
+    transition: background-color $duration, opacity $duration, transform $duration
     width: 16px
     &:nth-child(1)
       top: calc(50% - 6px)
@@ -195,6 +193,7 @@
   -moz-appearance: none
   -webkit-appearance: none
   background-color: bulmaRgba($scheme-invert, 0.2)
+  transition: background-color $duration
   border: none
   border-radius: $radius-rounded
   cursor: pointer
@@ -233,6 +232,7 @@
     background-color: bulmaRgba($scheme-invert, 0.3)
   &:active
     background-color: bulmaRgba($scheme-invert, 0.4)
+    transition: background-color $duration-active
   // Sizes
   &.is-small
     height: 16px

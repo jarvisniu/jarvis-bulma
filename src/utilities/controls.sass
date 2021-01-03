@@ -27,7 +27,10 @@ $control-padding-horizontal: calc(0.75em - #{$control-border-width}) !default
   padding-top: $control-padding-vertical
   position: relative
   vertical-align: top
+  transition: color $duration, background-color $duration, border-color $duration
   // States
+  &:active
+    transition: color $duration-active, background-color $duration-active, border-color $duration-active
   &:focus,
   &.is-focused,
   &:active,

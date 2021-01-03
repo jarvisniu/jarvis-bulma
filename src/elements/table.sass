@@ -104,6 +104,7 @@ $table-colors: $colors !default
   &.is-hoverable
     tbody
       tr:not(.is-selected)
+        transition: background-color $duration
         &:hover
           background-color: $table-row-hover-background-color
     &.is-striped
