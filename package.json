@@ -1,8 +1,8 @@
 {
   "name": "jarvis-bulma",
-  "version": "0.1.0",
+  "version": "0.1.1-wip",
   "description": "Jarvis Niu's modified version of Bulma",
-  "main": "css/bulma.css",
+  "main": "css/jarvis-bulma.css",
   "keywords": [
     "bulma",
     "css"
@@ -12,9 +12,9 @@
   "scripts": {
     "clean": "rm -rf css",
     "serve": "http-server -c-1",
-    "build-lib-dev": "sass --no-charset src/bulma.sass css/bulma.css",
+    "build-lib-dev": "sass --no-charset src/bulma.sass css/jarvis-bulma.css",
     "dev": "npm run clean && npm run build-lib-dev && npm run serve",
-    "build-lib-prod": "sass --no-source-map --no-charset src/bulma.sass css/bulma.css",
+    "build-lib-prod": "sass --no-source-map --no-charset src/bulma.sass css/jarvis-bulma.css",
     "build": "npm run clean && npm run build-lib-prod"
   },
   "repository": {

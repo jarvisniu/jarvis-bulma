@@ -11,7 +11,7 @@ Jarvis Niu's modified version of [Bulma](https://bulma.io/)
 
 ## Differences
 
-Differences to the original bulma:
+Differences from the original bulma:
 
 - Not intrusive! Remove the `minireset.sass` and `generic.sass` to keep your styles. Instead, I recommend to use [tailwindcss/base.css](https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/base.css) as a replacement.
 - Remove the `helpers`. Leave it to [TailwindCSS](https://tailwindcss.com/).
@@ -37,7 +37,7 @@ npm install jarvis-bulma
 ```js
 import 'jarvis-bulma'
 // or
-import 'jarvis-bulma/css/bulma.css'
+import 'jarvis-bulma/css/jarvis-bulma.css'
 ```
 
 ### Import SASS (Configuration)
