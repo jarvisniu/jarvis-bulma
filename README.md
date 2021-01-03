@@ -13,9 +13,8 @@ Jarvis Niu's modified version of [Bulma](https://bulma.io/)
 
 Differences to the original bulma:
 
-- [ ] Not intrusive! Remove the `generic.sass` to keep your style unchanged.
-- [x] Remove the `helpers`. Leave it to [TailwindCSS](https://tailwindcss.com/).
-- [ ] Styled `checkbox` and `radio`.
+- Not intrusive! Remove the `minireset.sass` and `generic.sass` to keep your styles. Instead, I recommend to use [tailwindcss/base.css](https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/base.css) as a replacement.
+- Remove the `helpers`. Leave it to [TailwindCSS](https://tailwindcss.com/).
 
 ## Usage
 

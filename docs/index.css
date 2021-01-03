@@ -85,6 +85,13 @@ main.jarvis-bulma .section-content.is-primary {
 }
 
 /* bd */
+svg {
+  max-height: 100%;
+  max-width: 100%
+}
+.bd-icon-size .icon {
+  background-color: #ffdd57;
+}
 .bd-notification {
   background-color: #f5f5f5;
   border-radius: 4px;
@@ -104,3 +111,84 @@ main.jarvis-bulma .section-content.is-primary {
   border-radius: 4px;
   color: #fff;
 }
+
+/* Bulma Generic */
+
+code {
+  background-color: whitesmoke;
+  color: #da1039;
+  font-size: 0.875em;
+  font-weight: normal;
+  padding: 0.25em 0.5em 0.25em;
+}
+
+/* Bulma Helpers */
+
+.has-text-white {
+  color: white !important;
+}
+
+.has-background-white {
+  background-color: white !important;
+}
+
+.has-text-black {
+  color: #0a0a0a !important;
+}
+
+.has-background-black {
+  background-color: #0a0a0a !important;
+}
+
+.has-text-light {
+  color: whitesmoke !important;
+}
+
+.has-background-light {
+  background-color: whitesmoke !important;
+}
+
+.has-text-dark {
+  color: #363636 !important;
+}
+
+.has-background-dark {
+  background-color: #363636 !important;
+}
+
+.has-text-primary {
+  color: #00d1b2 !important;
+}
+
+.has-text-link {
+  color: #3273dc !important;
+}
+
+.has-text-info {
+  color: #3298dc !important;
+}
+
+.has-background-info {
+  background-color: #3298dc !important;
+}
+
+.has-text-success {
+  color: #48c774 !important;
+}
+
+.has-text-warning {
+  color: #ffdd57 !important;
+}
+
+.has-text-danger {
+  color: #f14668 !important;
+}
+
+.has-text-grey {
+  color: #7a7a7a !important;
+}
+
+.has-background-grey {
+  background-color: #7a7a7a !important;
+}
+
