@@ -12,8 +12,8 @@
   "scripts": {
     "clean": "rm -rf css",
     "serve": "http-server -c-1",
-    "build-lib-dev": "sass --no-charset src/bulma.sass css/jarvis-bulma.css",
-    "dev": "npm run clean && npm run build-lib-dev && npm run serve",
+    "build-lib-dev": "sass --watch --no-charset src/bulma.sass css/jarvis-bulma.css",
+    "dev": "npm-run-all --parallel clean build-lib-dev serve",
     "build-lib-prod": "sass --no-source-map --no-charset src/bulma.sass css/jarvis-bulma.css",
     "build": "npm run clean && npm run build-lib-prod"
   },
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/jarvisniu/jarvis-bulma#readme",
   "devDependencies": {
+    "npm-run-all": "^4.1.5",
     "sass": "^1.32.0"
   },
   "files": [
