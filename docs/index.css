@@ -126,6 +126,7 @@ code {
 }
 
 /* Bulma Helpers */
+/* TODO Update colors */
 
 .has-text-white {
   color: white !important;
@@ -161,10 +162,6 @@ code {
 
 .has-text-primary {
   color: #00d1b2 !important;
-}
-
-.has-text-link {
-  color: #3273dc !important;
 }
 
 .has-text-info {

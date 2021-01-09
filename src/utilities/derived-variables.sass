@@ -1,7 +1,28 @@
 $primary: $blue !default
 
+$info: $purple !default
+$success: $green !default
+$warning: $yellow !default
+$danger: $red !default
+
 $light: $white-ter !default
 $dark: $grey-darker !default
+
+// Primary colors
+
+$primary-invert: findColorInvert($primary) !default
+$primary-light: findLightColor($primary) !default
+$primary-dark: findDarkColor($primary) !default
+$primary-visited: $purple !default
+
+$primary-hover: $grey-darker !default
+$primary-hover-border: $grey-light !default
+
+$primary-focus: $grey-darker !default
+$primary-focus-border: $blue !default
+
+$primary-active: $grey-darker !default
+$primary-active-border: $grey-dark !default
 
 // Invert colors
 
@@ -13,24 +34,18 @@ $blue-invert: findColorInvert($blue) !default
 $purple-invert: findColorInvert($purple) !default
 $red-invert: findColorInvert($red) !default
 
-$primary-invert: findColorInvert($primary) !default
-$primary-light: findLightColor($primary) !default
-$primary-dark: findDarkColor($primary) !default
-$cyan-invert: findColorInvert($cyan) !default
-$cyan-light: findLightColor($cyan) !default
-$cyan-dark: findDarkColor($cyan) !default
-$green-invert: findColorInvert($green) !default
-$green-light: findLightColor($green) !default
-$green-dark: findDarkColor($green) !default
-$orange-invert: findColorInvert($orange) !default
-$orange-light: findLightColor($orange) !default
-$orange-dark: findDarkColor($orange) !default
-$yellow-invert: findColorInvert($yellow) !default
-$yellow-light: findLightColor($yellow) !default
-$yellow-dark: findDarkColor($yellow) !default
-$red-invert: findColorInvert($red) !default
-$red-light: findLightColor($red) !default
-$red-dark: findDarkColor($red) !default
+$info-invert: findColorInvert($info) !default
+$info-light: findLightColor($info) !default
+$info-dark: findDarkColor($info) !default
+$success-invert: findColorInvert($success) !default
+$success-light: findLightColor($success) !default
+$success-dark: findDarkColor($success) !default
+$warning-invert: findColorInvert($warning) !default
+$warning-light: findLightColor($warning) !default
+$warning-dark: findDarkColor($warning) !default
+$danger-invert: findColorInvert($danger) !default
+$danger-light: findLightColor($danger) !default
+$danger-dark: findDarkColor($danger) !default
 $light-invert: findColorInvert($light) !default
 $dark-invert: findColorInvert($dark) !default
 
@@ -65,22 +80,6 @@ $code-background: $background !default
 $pre: $text !default
 $pre-background: $background !default
 
-// Blue colors
-
-$blue-invert: findColorInvert($blue) !default
-$blue-light: findLightColor($blue) !default
-$blue-dark: findDarkColor($blue) !default
-$blue-visited: $purple !default
-
-$blue-hover: $grey-darker !default
-$blue-hover-border: $grey-light !default
-
-$blue-focus: $grey-darker !default
-$blue-focus-border: $blue !default
-
-$blue-active: $grey-darker !default
-$blue-active-border: $grey-dark !default
-
 // Typography
 
 $family-primary: $family-sans-serif !default
@@ -96,7 +95,7 @@ $size-large: $size-4 !default
 $custom-colors: null !default
 $custom-shades: null !default
 
-$colors: mergeColorMaps(("white": ($white, $black), "black": ($black, $white), "light": ($light, $light-invert), "dark": ($dark, $dark-invert), "primary": ($primary, $primary-invert, $primary-light, $primary-dark), "blue": ($blue, $blue-invert, $blue-light, $blue-dark), "cyan": ($cyan, $cyan-invert, $cyan-light, $cyan-dark), "green": ($green, $green-invert, $green-light, $green-dark), "yellow": ($yellow, $yellow-invert, $yellow-light, $yellow-dark), "orange": ($orange, $orange-invert, $orange-light, $orange-dark), "red": ($red, $red-invert, $red-light, $red-dark)), $custom-colors) !default
+$colors: mergeColorMaps(("white": ($white, $black), "black": ($black, $white), "light": ($light, $light-invert), "dark": ($dark, $dark-invert), "primary": ($primary, $primary-invert, $primary-light, $primary-dark), "info": ($info, $info-invert, $info-light, $info-dark), "success": ($success, $success-invert, $success-light, $success-dark), "warning": ($warning, $warning-invert, $warning-light, $warning-dark), "danger": ($danger, $danger-invert, $danger-light, $danger-dark)), $custom-colors) !default
 
 $shades: mergeColorMaps(("black-bis": $black-bis, "black-ter": $black-ter, "grey-darker": $grey-darker, "grey-dark": $grey-dark, "grey": $grey, "grey-light": $grey-light, "grey-lighter": $grey-lighter, "white-ter": $white-ter, "white-bis": $white-bis), $custom-shades) !default
 

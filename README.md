@@ -15,10 +15,9 @@ Differences from the original bulma:
 
 - Not intrusive! Remove the `minireset.sass` and `generic.sass` to keep your styles. Instead, I recommend to use [tailwindcss/base.css](https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/base.css) as a replacement.
 - Remove the `helpers`. Leave it to [TailwindCSS](https://tailwindcss.com/).
-- Add many css transitions
-- Replace colors `link`, `info`, `warning`, `danger` and `success` by `blue`, `cyan`, `yellow`, `red`, `green` and `orange`.
-- Change primary color from `turquoise` to `blue`.
-- Change tabs border from 1px to 2px (according to the style of official bulma docs).
+- Change tabs border from 1px to 2px (keep up with the style of official bulma docs).
+- Add transitions such as button hovering
+- Change primary color from `turquoise` to `blue`. Change info color from `cyan` to `purple`. Remove color `link`.
 - Align `modal-card-foot` to center.
 
 ## Usage
